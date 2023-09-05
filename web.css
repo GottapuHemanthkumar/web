@@ -1,0 +1,69 @@
+header{
+	display: flex;
+	justify-content: flex-start;
+	background-color: lightgreen;
+}
+nav ul li{
+	display: inline;
+	padding: 2px;
+}
+nav ul li a{
+	border:5px;
+	background-color: beige;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 40%;
+	color: blue;
+}
+li{
+	margin-left: 50px;
+	margin-bottom:  20px;
+}
+#home{
+	margin-left: 170px;
+	margin-top: 20px;
+	position: relative;
+	border: 2px;
+}
+.grid {
+	display: grid;
+	display: flex;
+	grid-gap: 160px;
+}
+#about h2{
+	text-align: center;
+	color: red;
+}
+.im{
+	margin-left: 50px;
+}
+p{
+	font-size: large;
+}
+#menu{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lightpink;
+	position: relative;
+}
+#menu img{
+	padding: 25px;
+	margin-left: 65px;
+}
+h2{
+	text-align: center;
+	color: red;
+.main{
+    display:flex;
+    padding: 10px;
+}
+.map{
+    background-color: lavender;
+    height: 500px;
+    color: black;
+    border: 5px solid black;
+}
+.map iframe{
+    height: 500px;
+    width: 900px;
+}
